@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\Images\\image.png",
+      "PackagePath": "staticwebassets\\Images\\image.png"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
