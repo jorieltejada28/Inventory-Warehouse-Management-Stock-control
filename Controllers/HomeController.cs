@@ -1,26 +1,26 @@
-    using System.Diagnostics;
-    using Microsoft.AspNetCore.Mvc;
-    using webApp.Models;
+using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+using webApp.Models;
 
-    namespace webApp.Controllers;
+namespace webApp.Controllers;
 
-    public class HomeController : Controller
+public class HomeController : Controller
+{
+    private readonly ILogger<HomeController> _logger;
+
+    public HomeController(ILogger<HomeController> logger)
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        _logger = logger;
     }
+
+    public IActionResult Index()
+    {
+        return View("~/Views/Home/Index.cshtml");
+    }
+
+    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+    public IActionResult Error()
+    {
+        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    }
+}
