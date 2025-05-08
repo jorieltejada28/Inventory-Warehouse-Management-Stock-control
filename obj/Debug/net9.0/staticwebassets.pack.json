@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\js\\index.js"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\js\\loading.js",
+      "PackagePath": "staticwebassets\\js\\loading.js"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

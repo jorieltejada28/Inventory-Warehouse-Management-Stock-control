@@ -1,0 +1,106 @@
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Views/Shared/Auth/_Layout.cshtml";
+}
+
+<div class="p-6">
+    <h1 class="text-2xl font-semibold mb-4">Welcome to your Dashboard</h1>
+
+    <!-- Stats Cards -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
+        <div class="bg-white rounded-xl shadow p-4">
+            <p class="text-gray-500">Users</p>
+            <h2 class="text-2xl font-bold">120</h2>
+        </div>
+        <div class="bg-white rounded-xl shadow p-4">
+            <p class="text-gray-500">Orders</p>
+            <h2 class="text-2xl font-bold">87</h2>
+        </div>
+        <div class="bg-white rounded-xl shadow p-4">
+            <p class="text-gray-500">Revenue</p>
+            <h2 class="text-2xl font-bold">$4,560</h2>
+        </div>
+        <div class="bg-white rounded-xl shadow p-4">
+            <p class="text-gray-500">New Signups</p>
+            <h2 class="text-2xl font-bold">15</h2>
+        </div>
+    </div>
+
+    <!-- Recent Activity Table -->
+    <div class="bg-white rounded-xl shadow overflow-x-auto mb-6">
+        <table class="min-w-full divide-y divide-gray-200">
+            <thead class="bg-gray-100">
+                <tr>
+                    <th class="px-6 py-3 text-left text-sm font-medium text-gray-500">User</th>
+                    <th class="px-6 py-3 text-left text-sm font-medium text-gray-500">Activity</th>
+                    <th class="px-6 py-3 text-left text-sm font-medium text-gray-500">Date</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+                <tr>
+                    <td class="px-6 py-4 text-sm text-gray-700">Alice</td>
+                    <td class="px-6 py-4 text-sm text-gray-700">Signed up</td>
+                    <td class="px-6 py-4 text-sm text-gray-700">May 7, 2025</td>
+                </tr>
+                <tr>
+                    <td class="px-6 py-4 text-sm text-gray-700">Bob</td>
+                    <td class="px-6 py-4 text-sm text-gray-700">Placed an order</td>
+                    <td class="px-6 py-4 text-sm text-gray-700">May 6, 2025</td>
+                </tr>
+                <tr>
+                    <td class="px-6 py-4 text-sm text-gray-700">Charlie</td>
+                    <td class="px-6 py-4 text-sm text-gray-700">Updated profile</td>
+                    <td class="px-6 py-4 text-sm text-gray-700">May 5, 2025</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Recent Orders -->
+    <div class="bg-white rounded-xl shadow p-6 mb-6">
+        <h3 class="text-lg font-semibold mb-4">Recent Orders</h3>
+        <div class="divide-y divide-gray-200">
+            <div class="flex justify-between py-4">
+                <span class="text-gray-700">Order #101</span>
+                <span class="text-gray-500">$200</span>
+            </div>
+            <div class="flex justify-between py-4">
+                <span class="text-gray-700">Order #102</span>
+                <span class="text-gray-500">$450</span>
+            </div>
+            <div class="flex justify-between py-4">
+                <span class="text-gray-700">Order #103</span>
+                <span class="text-gray-500">$125</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notifications -->
+    <div class="bg-white rounded-xl shadow p-6 mb-6">
+        <h3 class="text-lg font-semibold mb-4">Notifications</h3>
+        <div class="divide-y divide-gray-200">
+            <div class="flex justify-between py-4">
+                <span class="text-gray-700">New user signed up: Alice</span>
+                <span class="text-gray-500">5 minutes ago</span>
+            </div>
+            <div class="flex justify-between py-4">
+                <span class="text-gray-700">Order #105 was placed</span>
+                <span class="text-gray-500">15 minutes ago</span>
+            </div>
+            <div class="flex justify-between py-4">
+                <span class="text-gray-700">New profile update: Bob</span>
+                <span class="text-gray-500">30 minutes ago</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chart Section (Placeholder) -->
+    <div class="bg-white rounded-xl shadow p-6 mb-6">
+        <h3 class="text-lg font-semibold mb-4">Sales Overview</h3>
+        <!-- You can replace the next div with an actual chart, e.g., using Chart.js or other libraries -->
+        <div class="h-48 bg-gray-100 rounded-xl flex justify-center items-center text-gray-500">
+            Sales Chart (Placeholder)
+        </div>
+    </div>
+
+</div>

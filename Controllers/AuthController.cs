@@ -27,6 +27,12 @@ namespace webApp.Controllers
             return View("~/Views/Home/SignUp.cshtml");
         }
 
+        [HttpGet("Dashboard")]
+        public IActionResult Dashboard()
+        {
+            return View("~/Views/Auth/Dashboard.cshtml");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         [HttpGet("Error")]
         public IActionResult Error()

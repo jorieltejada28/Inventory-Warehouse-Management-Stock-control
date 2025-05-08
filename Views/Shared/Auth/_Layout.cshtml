@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen">
+
+    <!-- Main Layout -->
+    <div class="flex flex-grow">
+    @await Html.PartialAsync("_LoadingScreen")
+        <!-- Sidebar (Fixed Width) -->
+        <div class="w-64 bg-gray-700 text-white p-4">
+            Sidebar (Fixed Width)
+        </div>
+
+        <!-- Content Area (Main Content and Navbar) -->
+        <div class="flex flex-col flex-1">
+            <!-- Navbar (Full Width) -->
+            <div class="bg-gray-800 text-white p-4">
+                Navbar (Full Width)
+            </div>
+
+            <!-- Main Content -->
+            <main role="main" class="flex-1 p-4">
+                @RenderBody() <!-- Your page content will be rendered here -->
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    @await Component.InvokeAsync("Footer")
+
+    <!-- Scripts -->
+    @await RenderSectionAsync("Scripts", required: false)
+    <script src="~/js/loading.js"></script>
+
+</body>
+</html>
