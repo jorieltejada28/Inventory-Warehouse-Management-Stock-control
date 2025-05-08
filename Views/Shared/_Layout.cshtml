@@ -11,6 +11,9 @@
 
     @await Component.InvokeAsync("Navbar")
 
+    <!-- Include the Loading Screen Partial -->
+    @await Html.PartialAsync("_LoadingScreen")
+
     <main role="main" class="pb-10">
         @RenderBody()
     </main>
@@ -19,5 +22,8 @@
 
     @await RenderSectionAsync("Scripts", required: false)
     <script src="~/js/index.js"></script>
+
+    <!-- JavaScript to handle the loading screen -->
+    <script src="~/js/loading.js"></script>
 </body>
 </html>
