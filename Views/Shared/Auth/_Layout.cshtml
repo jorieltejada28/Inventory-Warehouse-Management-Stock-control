@@ -14,7 +14,7 @@
         @await Html.PartialAsync("_LoadingScreen")
 
         <!-- Sidebar (Toggleable) -->
-        <div id="sidebar" class="bg-gray-700 text-white p-4 w-64 transition-all duration-300 ease-in-out overflow-hidden">
+        <div id="sidebar" class="bg-gray-700 text-white p-4 w-64 transition-all duration-300 overflow-hidden">
             Sidebar (Fixed Width)
         </div>
 
@@ -49,13 +49,31 @@
         const toggleBtn = document.getElementById("menu-toggle");
         const sidebar = document.getElementById("sidebar");
 
-        toggleBtn.addEventListener("click", () => {
-            if (sidebar.classList.contains("w-64")) {
+        // Load sidebar state on page load
+        document.addEventListener("DOMContentLoaded", () => {
+            const isOpen = localStorage.getItem("sidebarOpen");
+
+            if (isOpen === "true") {
+                sidebar.classList.add("w-64", "p-4");
+                sidebar.classList.remove("w-0");
+            } else {
                 sidebar.classList.remove("w-64", "p-4");
                 sidebar.classList.add("w-0");
+            }
+        });
+
+        // Toggle sidebar and store the state
+        toggleBtn.addEventListener("click", () => {
+            const isOpen = sidebar.classList.contains("w-64");
+
+            if (isOpen) {
+                sidebar.classList.remove("w-64", "p-4");
+                sidebar.classList.add("w-0");
+                localStorage.setItem("sidebarOpen", "false");
             } else {
                 sidebar.classList.remove("w-0");
                 sidebar.classList.add("w-64", "p-4");
+                localStorage.setItem("sidebarOpen", "true");
             }
         });
     </script>
