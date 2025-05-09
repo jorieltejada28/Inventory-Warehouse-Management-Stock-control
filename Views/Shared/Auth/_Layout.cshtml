@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,17 +11,18 @@
 
     <!-- Main Layout -->
     <div class="flex flex-grow">
-    @await Html.PartialAsync("_LoadingScreen")
-        <!-- Sidebar (Fixed Width) -->
-        <div class="w-64 bg-gray-700 text-white p-4">
+        @await Html.PartialAsync("_LoadingScreen")
+
+        <!-- Sidebar (Toggleable) -->
+        <div id="sidebar" class="bg-gray-700 text-white p-4 w-64 transition-all duration-300 ease-in-out overflow-hidden">
             Sidebar (Fixed Width)
         </div>
 
-        <!-- Content Area (Main Content and Navbar) -->
+        <!-- Content Area -->
         <div class="flex flex-col flex-1">
-            <!-- Navbar (Full Width) --> 
+            <!-- Navbar -->
             <div class="bg-gray-800 text-white p-4 flex items-center justify-between">
-                <!-- Hamburger Button on the Left -->
+                <!-- Hamburger Button -->
                 <button class="text-white text-xl focus:outline-none" id="menu-toggle">
                     <i class="fas fa-bars"></i>
                 </button>
@@ -30,10 +31,9 @@
                 <div>Navbar (Full Width)</div>
             </div>
 
-
             <!-- Main Content -->
             <main role="main" class="flex-1 p-4">
-                @RenderBody() <!-- Your page content will be rendered here -->
+                @RenderBody()
             </main>
         </div>
     </div>
@@ -45,5 +45,19 @@
     @await RenderSectionAsync("Scripts", required: false)
     <script src="~/js/loading.js"></script>
 
+    <script>
+        const toggleBtn = document.getElementById("menu-toggle");
+        const sidebar = document.getElementById("sidebar");
+
+        toggleBtn.addEventListener("click", () => {
+            if (sidebar.classList.contains("w-64")) {
+                sidebar.classList.remove("w-64", "p-4");
+                sidebar.classList.add("w-0");
+            } else {
+                sidebar.classList.remove("w-0");
+                sidebar.classList.add("w-64", "p-4");
+            }
+        });
+    </script>
 </body>
 </html>
