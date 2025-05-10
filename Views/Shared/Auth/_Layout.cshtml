@@ -6,6 +6,9 @@
     <title>@ViewData["Title"]</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Include jQuery from CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body class="flex flex-col min-h-screen">
 
@@ -42,34 +45,10 @@
 
     <!-- Scripts -->
     @await RenderSectionAsync("Scripts", required: false)
-    <script src="~/js/loading.js"></script>
 
-    <script>
-        const toggleBtn = document.getElementById("menu-toggle");
-        const sidebar = document.getElementById("sidebar");
+    <!-- Loading Script -->
+    <script src="@Url.Content("~/js/loading.js")"></script>
+    <script src="@Url.Content("~/js/sidebar-toggle.js")"></script>
 
-        // Check if sidebar state is stored in localStorage and apply it
-        const sidebarState = localStorage.getItem('sidebarState');
-        if (sidebarState === 'collapsed') {
-            sidebar.classList.remove("w-64", "p-4");
-            sidebar.classList.add("w-0");
-        }
-
-        toggleBtn.addEventListener("click", () => {
-            if (sidebar.classList.contains("w-64")) {
-                sidebar.classList.remove("w-64", "p-4");
-                sidebar.classList.add("w-0");
-
-                // Store the collapsed state in localStorage
-                localStorage.setItem('sidebarState', 'collapsed');
-            } else {
-                sidebar.classList.remove("w-0");
-                sidebar.classList.add("w-64", "p-4");
-
-                // Store the expanded state in localStorage
-                localStorage.setItem('sidebarState', 'expanded');
-            }
-        });
-    </script>
 </body>
 </html>

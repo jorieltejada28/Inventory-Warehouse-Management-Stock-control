@@ -72,6 +72,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mrfta4ffu2"},{"Name":"integrity","Value":"sha256-7oCStFrJjDe7bo12DpB9U/jrM78kUu19qPANpaLDLWo="},{"Name":"label","Value":"_content/webApp/js/loading.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"694"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00227oCStFrJjDe7bo12DpB9U/jrM78kUu19qPANpaLDLWo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 08 May 2025 06:28:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/webApp/js/sidebar-toggle.b0xh3ynaee.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\sidebar-toggle.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b0xh3ynaee"},{"Name":"integrity","Value":"sha256-W1zymTWCvfxvcST1QBXJW8zaPbk67OOnrrxBEB3iGE0="},{"Name":"label","Value":"_content/webApp/js/sidebar-toggle.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"889"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022W1zymTWCvfxvcST1QBXJW8zaPbk67OOnrrxBEB3iGE0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 10 May 2025 13:46:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/webApp/js/sidebar-toggle.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\sidebar-toggle.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-W1zymTWCvfxvcST1QBXJW8zaPbk67OOnrrxBEB3iGE0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"889"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022W1zymTWCvfxvcST1QBXJW8zaPbk67OOnrrxBEB3iGE0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 10 May 2025 13:46:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/webApp/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
