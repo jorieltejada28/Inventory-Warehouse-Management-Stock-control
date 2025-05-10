@@ -1359,6 +1359,304 @@
       ]
     },
     {
+      "Route": "js/mobile-toggle.f3c333trqp.js",
+      "AssetFile": "js/mobile-toggle.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006289308176"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1CVgkvPi7M65XwGCa88fmIgDUWM2Ak8GhyfH5HGWfrY=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BUHduwxYz/fijc+XprXhDWpPEhcPo9O+cnhD0/EOHAw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 13:57:23 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f3c333trqp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BUHduwxYz/fijc+XprXhDWpPEhcPo9O+cnhD0/EOHAw="
+        },
+        {
+          "Name": "label",
+          "Value": "js/mobile-toggle.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/mobile-toggle.f3c333trqp.js",
+      "AssetFile": "js/mobile-toggle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "234"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BUHduwxYz/fijc+XprXhDWpPEhcPo9O+cnhD0/EOHAw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 13:57:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f3c333trqp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BUHduwxYz/fijc+XprXhDWpPEhcPo9O+cnhD0/EOHAw="
+        },
+        {
+          "Name": "label",
+          "Value": "js/mobile-toggle.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/mobile-toggle.f3c333trqp.js.gz",
+      "AssetFile": "js/mobile-toggle.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1CVgkvPi7M65XwGCa88fmIgDUWM2Ak8GhyfH5HGWfrY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 13:57:23 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f3c333trqp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1CVgkvPi7M65XwGCa88fmIgDUWM2Ak8GhyfH5HGWfrY="
+        },
+        {
+          "Name": "label",
+          "Value": "js/mobile-toggle.js.gz"
+        }
+      ]
+    },
+    {
+      "Route": "js/mobile-toggle.js",
+      "AssetFile": "js/mobile-toggle.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006289308176"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1CVgkvPi7M65XwGCa88fmIgDUWM2Ak8GhyfH5HGWfrY=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BUHduwxYz/fijc+XprXhDWpPEhcPo9O+cnhD0/EOHAw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 13:57:23 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BUHduwxYz/fijc+XprXhDWpPEhcPo9O+cnhD0/EOHAw="
+        }
+      ]
+    },
+    {
+      "Route": "js/mobile-toggle.js",
+      "AssetFile": "js/mobile-toggle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "234"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BUHduwxYz/fijc+XprXhDWpPEhcPo9O+cnhD0/EOHAw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 13:57:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BUHduwxYz/fijc+XprXhDWpPEhcPo9O+cnhD0/EOHAw="
+        }
+      ]
+    },
+    {
+      "Route": "js/mobile-toggle.js.gz",
+      "AssetFile": "js/mobile-toggle.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1CVgkvPi7M65XwGCa88fmIgDUWM2Ak8GhyfH5HGWfrY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 13:57:23 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1CVgkvPi7M65XwGCa88fmIgDUWM2Ak8GhyfH5HGWfrY="
+        }
+      ]
+    },
+    {
       "Route": "js/sidebar-toggle.b0xh3ynaee.js",
       "AssetFile": "js/sidebar-toggle.js.gz",
       "Selectors": [

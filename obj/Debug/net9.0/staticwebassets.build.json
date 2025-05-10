@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DQpg584I1SvLyQ8TwzFI+rTvuMBTn3BKU7W15xET8rE=",
+  "Hash": "JEx4zCT15UJyLx/Rt7guffJPevF5uq+Kf+FPokNHfdc=",
   "Source": "webApp",
   "BasePath": "_content/webApp",
   "Mode": "Default",
@@ -1172,6 +1172,27 @@
       "OriginalItemSpec": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
+      "Identity": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\vu0v9wiw9t-f3c333trqp.gz",
+      "SourceId": "webApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/webApp",
+      "RelativePath": "js/mobile-toggle#[.{fingerprint=f3c333trqp}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\js\\mobile-toggle.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gfo651t2vg",
+      "Integrity": "1CVgkvPi7M65XwGCa88fmIgDUWM2Ak8GhyfH5HGWfrY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\js\\mobile-toggle.js"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\w2gnsrynue-jd9uben2k1.gz",
       "SourceId": "webApp",
       "SourceType": "Discovered",
@@ -1506,6 +1527,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\loading.js"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\js\\mobile-toggle.js",
+      "SourceId": "webApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\",
+      "BasePath": "_content/webApp",
+      "RelativePath": "js/mobile-toggle#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f3c333trqp",
+      "Integrity": "BUHduwxYz/fijc+XprXhDWpPEhcPo9O+cnhD0/EOHAw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\mobile-toggle.js"
     },
     {
       "Identity": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\js\\sidebar-toggle.js",
@@ -4164,6 +4206,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-ZLBS10UMOO3aWNNpdUPtfjdEXYSRAdoUMDoJg61EX+w="
+        }
+      ]
+    },
+    {
+      "Route": "js/mobile-toggle.f3c333trqp.js",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\vu0v9wiw9t-f3c333trqp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006289308176"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1CVgkvPi7M65XwGCa88fmIgDUWM2Ak8GhyfH5HGWfrY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 13:57:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BUHduwxYz/fijc+XprXhDWpPEhcPo9O+cnhD0/EOHAw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f3c333trqp"
+        },
+        {
+          "Name": "label",
+          "Value": "js/mobile-toggle.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BUHduwxYz/fijc+XprXhDWpPEhcPo9O+cnhD0/EOHAw="
+        }
+      ]
+    },
+    {
+      "Route": "js/mobile-toggle.f3c333trqp.js",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\js\\mobile-toggle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "234"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BUHduwxYz/fijc+XprXhDWpPEhcPo9O+cnhD0/EOHAw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 13:57:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f3c333trqp"
+        },
+        {
+          "Name": "label",
+          "Value": "js/mobile-toggle.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BUHduwxYz/fijc+XprXhDWpPEhcPo9O+cnhD0/EOHAw="
+        }
+      ]
+    },
+    {
+      "Route": "js/mobile-toggle.f3c333trqp.js.gz",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\vu0v9wiw9t-f3c333trqp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1CVgkvPi7M65XwGCa88fmIgDUWM2Ak8GhyfH5HGWfrY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 13:57:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f3c333trqp"
+        },
+        {
+          "Name": "label",
+          "Value": "js/mobile-toggle.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1CVgkvPi7M65XwGCa88fmIgDUWM2Ak8GhyfH5HGWfrY="
+        }
+      ]
+    },
+    {
+      "Route": "js/mobile-toggle.js",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\vu0v9wiw9t-f3c333trqp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006289308176"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1CVgkvPi7M65XwGCa88fmIgDUWM2Ak8GhyfH5HGWfrY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 13:57:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BUHduwxYz/fijc+XprXhDWpPEhcPo9O+cnhD0/EOHAw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BUHduwxYz/fijc+XprXhDWpPEhcPo9O+cnhD0/EOHAw="
+        }
+      ]
+    },
+    {
+      "Route": "js/mobile-toggle.js",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\js\\mobile-toggle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "234"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BUHduwxYz/fijc+XprXhDWpPEhcPo9O+cnhD0/EOHAw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 13:57:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BUHduwxYz/fijc+XprXhDWpPEhcPo9O+cnhD0/EOHAw="
+        }
+      ]
+    },
+    {
+      "Route": "js/mobile-toggle.js.gz",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\vu0v9wiw9t-f3c333trqp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1CVgkvPi7M65XwGCa88fmIgDUWM2Ak8GhyfH5HGWfrY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 13:57:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1CVgkvPi7M65XwGCa88fmIgDUWM2Ak8GhyfH5HGWfrY="
         }
       ]
     },

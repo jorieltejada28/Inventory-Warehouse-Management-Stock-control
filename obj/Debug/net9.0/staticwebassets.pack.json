@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\js\\loading.js"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\js\\mobile-toggle.js",
+      "PackagePath": "staticwebassets\\js\\mobile-toggle.js"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\js\\sidebar-toggle.js",
       "PackagePath": "staticwebassets\\js\\sidebar-toggle.js"
     },
