@@ -5,8 +5,15 @@
             <img src="~/images/image.png" alt="PrimeStock Enterprises Logo" class="h-12">
         </a>
         
-        <!-- Centered Navigation Items -->
-        <ul class="flex space-x-8 text-gray-800 ml-12">
+        <!-- Mobile menu toggle button -->
+        <button class="lg:hidden text-gray-800 focus:outline-none" id="mobile-menu-toggle">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+
+        <!-- Centered Navigation Items (desktop and mobile) -->
+        <ul class="flex space-x-8 text-gray-800 ml-12 hidden lg:flex">
             <li>
                 <a href="/#about" class="scroll-link hover:text-indigo-600 font-semibold transition duration-300">About</a>
             </li>
@@ -18,10 +25,25 @@
             </li>
         </ul>
 
-        <!-- Auth Buttons -->
-        <div class="flex space-x-2">
+        <!-- Auth Buttons (desktop) -->
+        <div class="flex space-x-2 hidden lg:flex">
             <a class="text-indigo-600 font-semibold hover:text-white border border-indigo-600 py-2 px-4 rounded-full hover:bg-indigo-600 transition duration-300" asp-area="" asp-controller="Auth" asp-action="SignIn">Sign In</a>
             <a class="text-indigo-600 font-semibold hover:text-white border border-indigo-600 py-2 px-4 rounded-full hover:bg-indigo-600 transition duration-300" asp-area="" asp-controller="Auth" asp-action="SignUp">Sign Up</a>
         </div>
     </nav>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="lg:hidden bg-white shadow-lg hidden" id="mobile-menu">
+        <ul class="space-y-4 py-4 text-center">
+            <li><a href="/#about" class="block hover:text-indigo-600 font-semibold transition duration-300">About</a></li>
+            <li><a href="/#service" class="block hover:text-indigo-600 font-semibold transition duration-300">Service</a></li>
+            <li><a href="/#contact" class="block hover:text-indigo-600 font-semibold transition duration-300">Contact</a></li>
+            <li>
+                <a class="block text-indigo-600 font-semibold hover:text-white border border-indigo-600 py-2 px-4 rounded-full hover:bg-indigo-600 transition duration-300" asp-area="" asp-controller="Auth" asp-action="SignIn">Sign In</a>
+            </li>
+            <li>
+                <a class="block text-indigo-600 font-semibold hover:text-white border border-indigo-600 py-2 px-4 rounded-full hover:bg-indigo-600 transition duration-300" asp-area="" asp-controller="Auth" asp-action="SignUp">Sign Up</a>
+            </li>
+        </ul>
+    </div>
 </header>
