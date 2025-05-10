@@ -52,13 +52,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\index.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dvfDBnRSOIzAKog934AgK3LwcUuhT335Cs7bAJRonjk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"376"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022dvfDBnRSOIzAKog934AgK3LwcUuhT335Cs7bAJRonjk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 08 May 2025 06:16:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"376"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022dvfDBnRSOIzAKog934AgK3LwcUuhT335Cs7bAJRonjk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 10 May 2025 13:23:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/webApp/js/index.y2e1bkpfme.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\index.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y2e1bkpfme"},{"Name":"integrity","Value":"sha256-dvfDBnRSOIzAKog934AgK3LwcUuhT335Cs7bAJRonjk="},{"Name":"label","Value":"_content/webApp/js/index.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"376"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022dvfDBnRSOIzAKog934AgK3LwcUuhT335Cs7bAJRonjk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 08 May 2025 06:16:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"376"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022dvfDBnRSOIzAKog934AgK3LwcUuhT335Cs7bAJRonjk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 10 May 2025 13:23:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/webApp/js/loading.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\loading.js'))</AssetFile>
