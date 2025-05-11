@@ -1,29 +1,38 @@
-const toggleBtn = document.getElementById("menu-toggle");
-const sidebar = document.getElementById("sidebar");
+document.addEventListener('DOMContentLoaded', () => {
+    const toggleBtn = document.getElementById("menu-toggle");
+    const sidebar = document.getElementById("sidebar");
 
-// Immediately apply stored sidebar state WITHOUT transition
-const sidebarState = localStorage.getItem('sidebarState');
-if (sidebarState === 'collapsed') {
-    sidebar.classList.remove("w-64", "p-4");
-    sidebar.classList.add("w-0");
-}
+    if (!toggleBtn || !sidebar) return;
 
-// Delay adding transition until after page has loaded
-window.addEventListener('DOMContentLoaded', () => {
-    sidebar.classList.add("transition-all", "duration-300");
-});
+    // Apply transition on page load
+    sidebar.classList.add("transition-all", "duration-300", "ease-in-out");
 
-// Toggle sidebar on button click
-toggleBtn.addEventListener("click", () => {
-    if (sidebar.classList.contains("w-64")) {
-        sidebar.classList.remove("w-64", "p-4");
-        sidebar.classList.add("w-0");
-
-        localStorage.setItem('sidebarState', 'collapsed');
+    // Apply stored state without transition
+    const isCollapsed = localStorage.getItem('sidebarState') === 'collapsed';
+    if (isCollapsed) {
+        sidebar.classList.remove("w-64", "p-4", "opacity-100");
+        sidebar.classList.add("w-0", "opacity-0");
     } else {
-        sidebar.classList.remove("w-0");
-        sidebar.classList.add("w-64", "p-4");
-
-        localStorage.setItem('sidebarState', 'expanded');
+        sidebar.classList.add("w-64", "p-4", "opacity-100");
+        sidebar.classList.remove("w-0", "opacity-0");
     }
+
+    // Add cursor pointer to button
+    toggleBtn.classList.add("cursor-pointer");  // This ensures the cursor is pointer on the button
+
+    // Toggle sidebar on button click
+    toggleBtn.addEventListener("click", () => {
+        const isExpanded = sidebar.classList.contains("w-64");
+
+        // Toggle classes based on current state
+        if (isExpanded) {
+            sidebar.classList.remove("w-64", "p-4", "opacity-100");
+            sidebar.classList.add("w-0", "opacity-0");
+            localStorage.setItem('sidebarState', 'collapsed');
+        } else {
+            sidebar.classList.remove("w-0", "opacity-0");
+            sidebar.classList.add("w-64", "p-4", "opacity-100");
+            localStorage.setItem('sidebarState', 'expanded');
+        }
+    });
 });
