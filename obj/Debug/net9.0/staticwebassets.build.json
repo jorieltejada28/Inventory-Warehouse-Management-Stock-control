@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bpJ1aaCMw3DDi955vI9V3jDRK3wgKFZeFY5jodhco+Y=",
+  "Hash": "C0jhR6d6VxwnrcIs4XF9OmOgHt7QjY0yqauHFAL02C4=",
   "Source": "webApp",
   "BasePath": "_content/webApp",
   "Mode": "Default",
@@ -38,12 +38,12 @@
       "OriginalItemSpec": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-729mt04jvo.gz",
+      "Identity": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-ac71fio2qa.gz",
       "SourceId": "webApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/webApp",
-      "RelativePath": "js/sidebar-toggle#[.{fingerprint=729mt04jvo}]?.js.gz",
+      "RelativePath": "js/sidebar-toggle#[.{fingerprint=ac71fio2qa}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -52,8 +52,8 @@
       "RelatedAsset": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\js\\sidebar-toggle.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "xfwm3owpye",
-      "Integrity": "vdAMM6cpL1tqVm5yR4ZOjTm2cVkw7j2z9EKCxtDB8lM=",
+      "Fingerprint": "f9opciujnb",
+      "Integrity": "E/s6JSKt2gJa8owVGTYXT6IQQVkyaGG/7ISd2ETWcyE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\js\\sidebar-toggle.js"
@@ -1648,8 +1648,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "729mt04jvo",
-      "Integrity": "oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI=",
+      "Fingerprint": "ac71fio2qa",
+      "Integrity": "li0HNu5NStjznRIx8wYesUqT6w1Hn1mHYF0edHGkQw0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\sidebar-toggle.js"
@@ -5188,13 +5188,13 @@
       ]
     },
     {
-      "Route": "js/sidebar-toggle.729mt04jvo.js",
-      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-729mt04jvo.gz",
+      "Route": "js/sidebar-toggle.ac71fio2qa.js",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-ac71fio2qa.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001642036125"
+          "Quality": "0.001736111111"
         }
       ],
       "ResponseHeaders": [
@@ -5204,15 +5204,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "608"
+          "Value": "575"
         },
         {
           "Name": "ETag",
-          "Value": "\"vdAMM6cpL1tqVm5yR4ZOjTm2cVkw7j2z9EKCxtDB8lM=\""
+          "Value": "\"E/s6JSKt2gJa8owVGTYXT6IQQVkyaGG/7ISd2ETWcyE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 15:39:19 GMT"
+          "Value": "Sun, 11 May 2025 15:40:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5232,13 +5232,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI=\""
+          "Value": "W/\"li0HNu5NStjznRIx8wYesUqT6w1Hn1mHYF0edHGkQw0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "729mt04jvo"
+          "Value": "ac71fio2qa"
         },
         {
           "Name": "label",
@@ -5246,12 +5246,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI="
+          "Value": "sha256-li0HNu5NStjznRIx8wYesUqT6w1Hn1mHYF0edHGkQw0="
         }
       ]
     },
     {
-      "Route": "js/sidebar-toggle.729mt04jvo.js",
+      "Route": "js/sidebar-toggle.ac71fio2qa.js",
       "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\js\\sidebar-toggle.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5261,7 +5261,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1999"
+          "Value": "1892"
         },
         {
           "Name": "Content-Type",
@@ -5269,11 +5269,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI=\""
+          "Value": "\"li0HNu5NStjznRIx8wYesUqT6w1Hn1mHYF0edHGkQw0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 15:39:19 GMT"
+          "Value": "Sun, 11 May 2025 15:40:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5283,7 +5283,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "729mt04jvo"
+          "Value": "ac71fio2qa"
         },
         {
           "Name": "label",
@@ -5291,13 +5291,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI="
+          "Value": "sha256-li0HNu5NStjznRIx8wYesUqT6w1Hn1mHYF0edHGkQw0="
         }
       ]
     },
     {
-      "Route": "js/sidebar-toggle.729mt04jvo.js.gz",
-      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-729mt04jvo.gz",
+      "Route": "js/sidebar-toggle.ac71fio2qa.js.gz",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-ac71fio2qa.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5306,7 +5306,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "608"
+          "Value": "575"
         },
         {
           "Name": "Content-Type",
@@ -5314,11 +5314,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vdAMM6cpL1tqVm5yR4ZOjTm2cVkw7j2z9EKCxtDB8lM=\""
+          "Value": "\"E/s6JSKt2gJa8owVGTYXT6IQQVkyaGG/7ISd2ETWcyE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 15:39:19 GMT"
+          "Value": "Sun, 11 May 2025 15:40:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5336,7 +5336,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "729mt04jvo"
+          "Value": "ac71fio2qa"
         },
         {
           "Name": "label",
@@ -5344,18 +5344,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vdAMM6cpL1tqVm5yR4ZOjTm2cVkw7j2z9EKCxtDB8lM="
+          "Value": "sha256-E/s6JSKt2gJa8owVGTYXT6IQQVkyaGG/7ISd2ETWcyE="
         }
       ]
     },
     {
       "Route": "js/sidebar-toggle.js",
-      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-729mt04jvo.gz",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-ac71fio2qa.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001642036125"
+          "Quality": "0.001736111111"
         }
       ],
       "ResponseHeaders": [
@@ -5365,15 +5365,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "608"
+          "Value": "575"
         },
         {
           "Name": "ETag",
-          "Value": "\"vdAMM6cpL1tqVm5yR4ZOjTm2cVkw7j2z9EKCxtDB8lM=\""
+          "Value": "\"E/s6JSKt2gJa8owVGTYXT6IQQVkyaGG/7ISd2ETWcyE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 15:39:19 GMT"
+          "Value": "Sun, 11 May 2025 15:40:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5393,13 +5393,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI=\""
+          "Value": "W/\"li0HNu5NStjznRIx8wYesUqT6w1Hn1mHYF0edHGkQw0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI="
+          "Value": "sha256-li0HNu5NStjznRIx8wYesUqT6w1Hn1mHYF0edHGkQw0="
         }
       ]
     },
@@ -5414,7 +5414,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1999"
+          "Value": "1892"
         },
         {
           "Name": "Content-Type",
@@ -5422,11 +5422,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI=\""
+          "Value": "\"li0HNu5NStjznRIx8wYesUqT6w1Hn1mHYF0edHGkQw0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 15:39:19 GMT"
+          "Value": "Sun, 11 May 2025 15:40:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5436,13 +5436,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI="
+          "Value": "sha256-li0HNu5NStjznRIx8wYesUqT6w1Hn1mHYF0edHGkQw0="
         }
       ]
     },
     {
       "Route": "js/sidebar-toggle.js.gz",
-      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-729mt04jvo.gz",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-ac71fio2qa.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5451,7 +5451,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "608"
+          "Value": "575"
         },
         {
           "Name": "Content-Type",
@@ -5459,11 +5459,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vdAMM6cpL1tqVm5yR4ZOjTm2cVkw7j2z9EKCxtDB8lM=\""
+          "Value": "\"E/s6JSKt2gJa8owVGTYXT6IQQVkyaGG/7ISd2ETWcyE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 15:39:19 GMT"
+          "Value": "Sun, 11 May 2025 15:40:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5481,7 +5481,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vdAMM6cpL1tqVm5yR4ZOjTm2cVkw7j2z9EKCxtDB8lM="
+          "Value": "sha256-E/s6JSKt2gJa8owVGTYXT6IQQVkyaGG/7ISd2ETWcyE="
         }
       ]
     },

@@ -174,8 +174,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>729mt04jvo</Fingerprint>
-      <Integrity>oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI=</Integrity>
+      <Fingerprint>ac71fio2qa</Fingerprint>
+      <Integrity>li0HNu5NStjznRIx8wYesUqT6w1Hn1mHYF0edHGkQw0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\sidebar-toggle.js'))</OriginalItemSpec>

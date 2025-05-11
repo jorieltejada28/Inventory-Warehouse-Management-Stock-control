@@ -108,17 +108,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BUHduwxYz/fijc\u002BXprXhDWpPEhcPo9O\u002BcnhD0/EOHAw="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"234"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022BUHduwxYz/fijc\u002BXprXhDWpPEhcPo9O\u002BcnhD0/EOHAw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 10 May 2025 13:57:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/webApp/js/sidebar-toggle.729mt04jvo.js">
+    <StaticWebAssetEndpoint Include="_content/webApp/js/sidebar-toggle.ac71fio2qa.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\sidebar-toggle.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"729mt04jvo"},{"Name":"integrity","Value":"sha256-oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI="},{"Name":"label","Value":"_content/webApp/js/sidebar-toggle.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1999"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 15:39:19 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ac71fio2qa"},{"Name":"integrity","Value":"sha256-li0HNu5NStjznRIx8wYesUqT6w1Hn1mHYF0edHGkQw0="},{"Name":"label","Value":"_content/webApp/js/sidebar-toggle.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1892"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022li0HNu5NStjznRIx8wYesUqT6w1Hn1mHYF0edHGkQw0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 15:40:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/webApp/js/sidebar-toggle.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\sidebar-toggle.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1999"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 15:39:19 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-li0HNu5NStjznRIx8wYesUqT6w1Hn1mHYF0edHGkQw0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1892"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022li0HNu5NStjznRIx8wYesUqT6w1Hn1mHYF0edHGkQw0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 15:40:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/webApp/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
