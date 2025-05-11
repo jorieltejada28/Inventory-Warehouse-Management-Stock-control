@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+o1UpIDpK7oIoVUYOveztKKa/w+JolI5EobPVZHoxyw=",
+  "Hash": "bpJ1aaCMw3DDi955vI9V3jDRK3wgKFZeFY5jodhco+Y=",
   "Source": "webApp",
   "BasePath": "_content/webApp",
   "Mode": "Default",
@@ -38,12 +38,12 @@
       "OriginalItemSpec": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-6rgjs6rgel.gz",
+      "Identity": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-729mt04jvo.gz",
       "SourceId": "webApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/webApp",
-      "RelativePath": "js/sidebar-toggle#[.{fingerprint=6rgjs6rgel}]?.js.gz",
+      "RelativePath": "js/sidebar-toggle#[.{fingerprint=729mt04jvo}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -52,8 +52,8 @@
       "RelatedAsset": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\js\\sidebar-toggle.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ew01wl6h4l",
-      "Integrity": "MhG3F1VqaR+52b5jJRjEXmBfFZfbA55CNOt+IwC0Q8o=",
+      "Fingerprint": "xfwm3owpye",
+      "Integrity": "vdAMM6cpL1tqVm5yR4ZOjTm2cVkw7j2z9EKCxtDB8lM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\js\\sidebar-toggle.js"
@@ -857,6 +857,27 @@
       "OriginalItemSpec": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\js\\index.js"
     },
     {
+      "Identity": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\jv6be2pkvy-6480l890ca.gz",
+      "SourceId": "webApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/webApp",
+      "RelativePath": "css/style#[.{fingerprint=6480l890ca}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\css\\style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "frhb1me79x",
+      "Integrity": "VXjA6v/FROqhJyMVR43lyln1Ns9tez9caC8WoP61X+s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\css\\style.css"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\klouz48eaj-o1o13a6vjx.gz",
       "SourceId": "webApp",
       "SourceType": "Discovered",
@@ -1445,6 +1466,27 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\css\\style.css",
+      "SourceId": "webApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\",
+      "BasePath": "_content/webApp",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6480l890ca",
+      "Integrity": "Fg4LQo/rCB5T7D8GkOMklgvEzQV0peKy27CJSq//HyE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\favicon.ico",
       "SourceId": "webApp",
       "SourceType": "Discovered",
@@ -1606,8 +1648,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6rgjs6rgel",
-      "Integrity": "kv9XhZtfmoFqgo0yNfMCJ4EpZrvfCcU3nvVJMbi1PjE=",
+      "Fingerprint": "729mt04jvo",
+      "Integrity": "oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\sidebar-toggle.js"
@@ -3190,6 +3232,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.6480l890ca.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\jv6be2pkvy-6480l890ca.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004310344828"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VXjA6v/FROqhJyMVR43lyln1Ns9tez9caC8WoP61X+s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 15:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Fg4LQo/rCB5T7D8GkOMklgvEzQV0peKy27CJSq//HyE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6480l890ca"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fg4LQo/rCB5T7D8GkOMklgvEzQV0peKy27CJSq//HyE="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.6480l890ca.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fg4LQo/rCB5T7D8GkOMklgvEzQV0peKy27CJSq//HyE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 15:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6480l890ca"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fg4LQo/rCB5T7D8GkOMklgvEzQV0peKy27CJSq//HyE="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.6480l890ca.css.gz",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\jv6be2pkvy-6480l890ca.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VXjA6v/FROqhJyMVR43lyln1Ns9tez9caC8WoP61X+s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 15:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6480l890ca"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VXjA6v/FROqhJyMVR43lyln1Ns9tez9caC8WoP61X+s="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\jv6be2pkvy-6480l890ca.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004310344828"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VXjA6v/FROqhJyMVR43lyln1Ns9tez9caC8WoP61X+s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 15:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Fg4LQo/rCB5T7D8GkOMklgvEzQV0peKy27CJSq//HyE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fg4LQo/rCB5T7D8GkOMklgvEzQV0peKy27CJSq//HyE="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fg4LQo/rCB5T7D8GkOMklgvEzQV0peKy27CJSq//HyE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 15:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fg4LQo/rCB5T7D8GkOMklgvEzQV0peKy27CJSq//HyE="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\jv6be2pkvy-6480l890ca.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VXjA6v/FROqhJyMVR43lyln1Ns9tez9caC8WoP61X+s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 15:36:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VXjA6v/FROqhJyMVR43lyln1Ns9tez9caC8WoP61X+s="
         }
       ]
     },
@@ -4848,13 +5188,13 @@
       ]
     },
     {
-      "Route": "js/sidebar-toggle.6rgjs6rgel.js",
-      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-6rgjs6rgel.gz",
+      "Route": "js/sidebar-toggle.729mt04jvo.js",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-729mt04jvo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002232142857"
+          "Quality": "0.001642036125"
         }
       ],
       "ResponseHeaders": [
@@ -4864,15 +5204,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "447"
+          "Value": "608"
         },
         {
           "Name": "ETag",
-          "Value": "\"MhG3F1VqaR+52b5jJRjEXmBfFZfbA55CNOt+IwC0Q8o=\""
+          "Value": "\"vdAMM6cpL1tqVm5yR4ZOjTm2cVkw7j2z9EKCxtDB8lM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 15:04:19 GMT"
+          "Value": "Sun, 11 May 2025 15:39:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4892,13 +5232,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"kv9XhZtfmoFqgo0yNfMCJ4EpZrvfCcU3nvVJMbi1PjE=\""
+          "Value": "W/\"oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6rgjs6rgel"
+          "Value": "729mt04jvo"
         },
         {
           "Name": "label",
@@ -4906,12 +5246,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-kv9XhZtfmoFqgo0yNfMCJ4EpZrvfCcU3nvVJMbi1PjE="
+          "Value": "sha256-oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI="
         }
       ]
     },
     {
-      "Route": "js/sidebar-toggle.6rgjs6rgel.js",
+      "Route": "js/sidebar-toggle.729mt04jvo.js",
       "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\wwwroot\\js\\sidebar-toggle.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4921,7 +5261,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1177"
+          "Value": "1999"
         },
         {
           "Name": "Content-Type",
@@ -4929,11 +5269,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kv9XhZtfmoFqgo0yNfMCJ4EpZrvfCcU3nvVJMbi1PjE=\""
+          "Value": "\"oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 15:04:19 GMT"
+          "Value": "Sun, 11 May 2025 15:39:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4943,7 +5283,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6rgjs6rgel"
+          "Value": "729mt04jvo"
         },
         {
           "Name": "label",
@@ -4951,13 +5291,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-kv9XhZtfmoFqgo0yNfMCJ4EpZrvfCcU3nvVJMbi1PjE="
+          "Value": "sha256-oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI="
         }
       ]
     },
     {
-      "Route": "js/sidebar-toggle.6rgjs6rgel.js.gz",
-      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-6rgjs6rgel.gz",
+      "Route": "js/sidebar-toggle.729mt04jvo.js.gz",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-729mt04jvo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4966,7 +5306,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "447"
+          "Value": "608"
         },
         {
           "Name": "Content-Type",
@@ -4974,11 +5314,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MhG3F1VqaR+52b5jJRjEXmBfFZfbA55CNOt+IwC0Q8o=\""
+          "Value": "\"vdAMM6cpL1tqVm5yR4ZOjTm2cVkw7j2z9EKCxtDB8lM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 15:04:19 GMT"
+          "Value": "Sun, 11 May 2025 15:39:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4996,7 +5336,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6rgjs6rgel"
+          "Value": "729mt04jvo"
         },
         {
           "Name": "label",
@@ -5004,18 +5344,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MhG3F1VqaR+52b5jJRjEXmBfFZfbA55CNOt+IwC0Q8o="
+          "Value": "sha256-vdAMM6cpL1tqVm5yR4ZOjTm2cVkw7j2z9EKCxtDB8lM="
         }
       ]
     },
     {
       "Route": "js/sidebar-toggle.js",
-      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-6rgjs6rgel.gz",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-729mt04jvo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002232142857"
+          "Quality": "0.001642036125"
         }
       ],
       "ResponseHeaders": [
@@ -5025,15 +5365,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "447"
+          "Value": "608"
         },
         {
           "Name": "ETag",
-          "Value": "\"MhG3F1VqaR+52b5jJRjEXmBfFZfbA55CNOt+IwC0Q8o=\""
+          "Value": "\"vdAMM6cpL1tqVm5yR4ZOjTm2cVkw7j2z9EKCxtDB8lM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 15:04:19 GMT"
+          "Value": "Sun, 11 May 2025 15:39:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5053,13 +5393,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"kv9XhZtfmoFqgo0yNfMCJ4EpZrvfCcU3nvVJMbi1PjE=\""
+          "Value": "W/\"oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kv9XhZtfmoFqgo0yNfMCJ4EpZrvfCcU3nvVJMbi1PjE="
+          "Value": "sha256-oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI="
         }
       ]
     },
@@ -5074,7 +5414,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1177"
+          "Value": "1999"
         },
         {
           "Name": "Content-Type",
@@ -5082,11 +5422,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kv9XhZtfmoFqgo0yNfMCJ4EpZrvfCcU3nvVJMbi1PjE=\""
+          "Value": "\"oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 15:04:19 GMT"
+          "Value": "Sun, 11 May 2025 15:39:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5096,13 +5436,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kv9XhZtfmoFqgo0yNfMCJ4EpZrvfCcU3nvVJMbi1PjE="
+          "Value": "sha256-oevu8Pv2pM2Q4UbPLm8jo6lQWiKckABK6eIhR1ah6kI="
         }
       ]
     },
     {
       "Route": "js/sidebar-toggle.js.gz",
-      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-6rgjs6rgel.gz",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\MVC-CSharp\\webApp\\obj\\Debug\\net9.0\\compressed\\0ktnali4sy-729mt04jvo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5111,7 +5451,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "447"
+          "Value": "608"
         },
         {
           "Name": "Content-Type",
@@ -5119,11 +5459,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MhG3F1VqaR+52b5jJRjEXmBfFZfbA55CNOt+IwC0Q8o=\""
+          "Value": "\"vdAMM6cpL1tqVm5yR4ZOjTm2cVkw7j2z9EKCxtDB8lM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 15:04:19 GMT"
+          "Value": "Sun, 11 May 2025 15:39:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5141,7 +5481,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MhG3F1VqaR+52b5jJRjEXmBfFZfbA55CNOt+IwC0Q8o="
+          "Value": "sha256-vdAMM6cpL1tqVm5yR4ZOjTm2cVkw7j2z9EKCxtDB8lM="
         }
       ]
     },

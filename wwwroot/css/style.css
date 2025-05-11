@@ -1,0 +1,11 @@
+/* When sidebar is collapsed, adjust the main content width */
+body.sidebar-collapsed #main-content {
+    margin-left: 0 !important;  /* Adjust the left margin to be zero */
+    width: 100% !important;  /* Ensure content takes full width */
+}
+
+/* Optional: Adjust the navbar or other elements */
+body.sidebar-collapsed .navbar {
+    margin-left: 0 !important; /* Adjust if you have a navbar */
+    width: 100%;
+}
