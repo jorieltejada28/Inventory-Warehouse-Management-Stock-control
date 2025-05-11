@@ -1,0 +1,182 @@
+<div id="sidebar" class="bg-gray-700 text-white p-4 w-64 overflow-hidden">
+    <h2 class="text-xl font-bold mb-4">
+        <i class="fas fa-boxes-stacked mr-2"></i>IWM System
+    </h2>
+    <nav class="space-y-2">
+        <!-- Dashboard -->
+        <a href="/dashboard" class="flex items-center space-x-2 hover:text-gray-300">
+            <i class="fas fa-tachometer-alt"></i>
+            <span>Dashboard</span>
+        </a>
+
+        <!-- Inventory Management -->
+        <div class="space-y-2">
+            <button onclick="toggleDropdown('inventoryDropdown')" class="flex items-center space-x-2 hover:text-gray-300 w-full text-left">
+                <i class="fas fa-warehouse"></i>
+                <span>Inventory Management</span>
+                <i class="fas fa-chevron-down ml-auto"></i>
+            </button>
+            <div id="inventoryDropdown" class="pl-6 hidden space-y-1">
+                <a href="/inventory/view" class="block hover:text-gray-300">View Inventory</a>
+                <a href="/inventory/add" class="block hover:text-gray-300">Add Item</a>
+                <a href="/inventory/movements" class="block hover:text-gray-300">Stock Movements</a>
+            </div>
+        </div>
+
+        <!-- Warehouse Management -->
+        <div class="space-y-2">
+            <button onclick="toggleDropdown('warehouseDropdown')" class="flex items-center space-x-2 hover:text-gray-300 w-full text-left">
+                <i class="fas fa-truck-loading"></i>
+                <span>Warehouse Management</span>
+                <i class="fas fa-chevron-down ml-auto"></i>
+            </button>
+            <div id="warehouseDropdown" class="pl-6 hidden space-y-1">
+                <a href="/warehouse/view" class="block hover:text-gray-300">View Warehouse</a>
+                <a href="/warehouse/layout" class="block hover:text-gray-300">Warehouse Layout</a>
+            </div>
+        </div>
+
+        <!-- Order Management -->
+        <div class="space-y-2">
+            <button onclick="toggleDropdown('orderDropdown')" class="flex items-center space-x-2 hover:text-gray-300 w-full text-left">
+                <i class="fas fa-receipt"></i>
+                <span>Order Management</span>
+                <i class="fas fa-chevron-down ml-auto"></i>
+            </button>
+            <div id="orderDropdown" class="pl-6 hidden space-y-1">
+                <a href="/orders/view" class="block hover:text-gray-300">View Orders</a>
+                <a href="/orders/add" class="block hover:text-gray-300">Create Order</a>
+            </div>
+        </div>
+
+        <!-- Stock Control -->
+        <div class="space-y-2">
+            <button onclick="toggleDropdown('stockControlDropdown')" class="flex items-center space-x-2 hover:text-gray-300 w-full text-left">
+                <i class="fas fa-box-open"></i>
+                <span>Stock Control</span>
+                <i class="fas fa-chevron-down ml-auto"></i>
+            </button>
+            <div id="stockControlDropdown" class="pl-6 hidden space-y-1">
+                <a href="/stock-control/view" class="block hover:text-gray-300">View Stock</a>
+                <a href="/stock-control/adjust" class="block hover:text-gray-300">Adjust Stock</a>
+            </div>
+        </div>
+
+        <!-- Supplier Management -->
+        <div class="space-y-2">
+            <button onclick="toggleDropdown('supplierDropdown')" class="flex items-center space-x-2 hover:text-gray-300 w-full text-left">
+                <i class="fas fa-user-tie"></i>
+                <span>Suppliers</span>
+                <i class="fas fa-chevron-down ml-auto"></i>
+            </button>
+            <div id="supplierDropdown" class="pl-6 hidden space-y-1">
+                <a href="/suppliers/view" class="block hover:text-gray-300">View Suppliers</a>
+                <a href="/suppliers/add" class="block hover:text-gray-300">Add Supplier</a>
+            </div>
+        </div>
+
+        <!-- Forecasting -->
+        <div class="space-y-2">
+            <button onclick="toggleDropdown('forecastingDropdown')" class="flex items-center space-x-2 hover:text-gray-300 w-full text-left">
+                <i class="fas fa-chart-line"></i>
+                <span>Forecasting</span>
+                <i class="fas fa-chevron-down ml-auto"></i>
+            </button>
+            <div id="forecastingDropdown" class="pl-6 hidden space-y-1">
+                <a href="/forecasting/view" class="block hover:text-gray-300">View Forecast</a>
+                <a href="/forecasting/generate" class="block hover:text-gray-300">Generate Forecast</a>
+            </div>
+        </div>
+
+        <!-- Reports -->
+        <div class="space-y-2">
+            <button onclick="toggleDropdown('reportsDropdown')" class="flex items-center space-x-2 hover:text-gray-300 w-full text-left">
+                <i class="fas fa-chart-pie"></i>
+                <span>Reports</span>
+                <i class="fas fa-chevron-down ml-auto"></i>
+            </button>
+            <div id="reportsDropdown" class="pl-6 hidden space-y-1">
+                <a href="/reports/inventory" class="block hover:text-gray-300">Inventory Report</a>
+                <a href="/reports/sales" class="block hover:text-gray-300">Sales Report</a>
+            </div>
+        </div>
+
+        <!-- Users & Roles -->
+        <div class="space-y-2">
+            <button onclick="toggleDropdown('usersDropdown')" class="flex items-center space-x-2 hover:text-gray-300 w-full text-left">
+                <i class="fas fa-users-cog"></i>
+                <span>User Management</span>
+                <i class="fas fa-chevron-down ml-auto"></i>
+            </button>
+            <div id="usersDropdown" class="pl-6 hidden space-y-1">
+                <a href="/users/view" class="block hover:text-gray-300">View Users</a>
+                <a href="/users/roles" class="block hover:text-gray-300">Manage Roles</a>
+            </div>
+        </div>
+
+        <!-- Mobile Integration -->
+        <div class="space-y-2">
+            <button onclick="toggleDropdown('mobileDropdown')" class="flex items-center space-x-2 hover:text-gray-300 w-full text-left">
+                <i class="fas fa-mobile-alt"></i>
+                <span>Mobile Integration</span>
+                <i class="fas fa-chevron-down ml-auto"></i>
+            </button>
+            <div id="mobileDropdown" class="pl-6 hidden space-y-1">
+                <a href="/mobile/setup" class="block hover:text-gray-300">Setup Mobile</a>
+                <a href="/mobile/sync" class="block hover:text-gray-300">Sync Mobile</a>
+            </div>
+        </div>
+
+        <!-- Integration -->
+        <div class="space-y-2">
+            <button onclick="toggleDropdown('integrationDropdown')" class="flex items-center space-x-2 hover:text-gray-300 w-full text-left">
+                <i class="fas fa-plug"></i>
+                <span>Integration</span>
+                <i class="fas fa-chevron-down ml-auto"></i>
+            </button>
+            <div id="integrationDropdown" class="pl-6 hidden space-y-1">
+                <a href="/integration/api" class="block hover:text-gray-300">API Integration</a>
+                <a href="/integration/sync" class="block hover:text-gray-300">Sync Integration</a>
+            </div>
+        </div>
+
+        <!-- Returns & QC -->
+        <div class="space-y-2">
+            <button onclick="toggleDropdown('returnsDropdown')" class="flex items-center space-x-2 hover:text-gray-300 w-full text-left">
+                <i class="fas fa-undo"></i>
+                <span>Returns</span>
+                <i class="fas fa-chevron-down ml-auto"></i>
+            </button>
+            <div id="returnsDropdown" class="pl-6 hidden space-y-1">
+                <a href="/returns/view" class="block hover:text-gray-300">View Returns</a>
+                <a href="/returns/process" class="block hover:text-gray-300">Process Returns</a>
+            </div>
+        </div>
+
+        <!-- Quality Control -->
+        <div class="space-y-2">
+            <button onclick="toggleDropdown('qualityControlDropdown')" class="flex items-center space-x-2 hover:text-gray-300 w-full text-left">
+                <i class="fas fa-check-circle"></i>
+                <span>Quality Control</span>
+                <i class="fas fa-chevron-down ml-auto"></i>
+            </button>
+            <div id="qualityControlDropdown" class="pl-6 hidden space-y-1">
+                <a href="/quality-control/checks" class="block hover:text-gray-300">Quality Checks</a>
+                <a href="/quality-control/reports" class="block hover:text-gray-300">QC Reports</a>
+            </div>
+        </div>
+
+        <!-- Multi-Warehouse -->
+        <div class="space-y-2">
+            <button onclick="toggleDropdown('multiWarehouseDropdown')" class="flex items-center space-x-2 hover:text-gray-300 w-full text-left">
+                <i class="fas fa-map-marked-alt"></i>
+                <span>Multi-Warehouse</span>
+                <i class="fas fa-chevron-down ml-auto"></i>
+            </button>
+            <div id="multiWarehouseDropdown" class="pl-6 hidden space-y-1">
+                <a href="/multi-warehouse/overview" class="block hover:text-gray-300">Overview</a>
+                <a href="/multi-warehouse/configure" class="block hover:text-gray-300">Configure Warehouses</a>
+            </div>
+        </div>
+    </nav>
+</div>
